@@ -69,9 +69,22 @@ git pull && git push
 
 ### Deploy to Heroku
 
+* Create An App in Heroku.
+
+![](./images/image1.png)
+
 * Install Heroku CLI and login using heroku login and setup the app in Heroku Web.
 
 ```bash
 heroku login
-
+heroku git:remote -a <app-name>
+git add .
+git commit -am "Commit"
+git push heroku main
 ```
+
+Now the app is deployed to Heroku.
+
+https://flask-heroku-app-python.herokuapp.com/
+
+
