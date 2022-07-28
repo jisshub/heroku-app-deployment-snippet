@@ -16,6 +16,9 @@ conda activate myenv
 
 ```txt
 Flask
+gunicorn
+Jinja2
+Werkzeug
 ```
 
 ### Create App
